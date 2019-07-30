@@ -1,0 +1,75 @@
+.main-panel {
+    margin: 55px 0;
+}
+
+.blue-label {
+    background-color: #5BC0DE;
+    color: #fff;
+    border-radius: .25rem;
+    margin: 0 .25rem 0 0;
+    height: calc(2.25rem + 2px);
+    line-height: calc(2.25rem + 2px);
+    padding: 0 8px;
+}
+
+.w-130 {
+    width: 130px;
+}
+
+.w-250 {
+    width: 200px;
+}
+
+.ingredient-table th,
+.ingredient-table td {
+    padding: 3px 3px;
+}
+
+.ingredient-table th label {
+    text-align: center;
+    padding: 4px;
+    display: block;
+    border-radius: 3px;
+    background-color: #999999;
+    color: #fff;
+}
+
+.ingredient-table td input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.saving {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+#error {
+    display: none;
+    width: 100%;
+}
+
+#save {
+    display: none;
+}
+
+#save-status {
+    display: inline-block;
+    line-height: 1;
+}
