@@ -16,7 +16,7 @@
         "dotenv": "^8.0.0",
         "gulp": "^4.0.2",
         "gutil": "^1.6.4",
-        "jquery": "^3.2",
+        "jquery": "^3.5",
         "laravel-mix": "^4.0.7",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
